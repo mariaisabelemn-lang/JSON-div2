@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Cadastro de Pessoas</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="form-group">
+            <span>CEP</span>
+            <input type="text" name="edtCEP" id="edtCEP" class="text form-control">
+        </div>
+        <div class="form-group">
+            <span>ENDERECO</span>
+            <input type="text" name="edtENDERECO" id="edtENDERECO" class="text form-control" readonly>           
+        </div>
+        <div class="form-group">
+            <span>NÚMERO</span>
+                <input type="number" name="edtNÚMERO" id="edtNÚMERO" class="form-control"> 
+        </div>
+        <div class="form-group">
+            <span>CIDADE</span>
+                <input type="text" name="edtCIDADE" id="edtCIDADE" class="text form-control" readonly>
+        </div>     
+        <div class="form-group">
+            <span>ESTADO</span>
+                <input type="text" name="ESTADO" id="edtESTADO" class="text form-control" readonly> 
+        </div>
+        
+
+
+        <button class="btn btn-outline-dark mt-2" onclick="buscaCEP()">BUSCAR CEP</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src = "js/script.js"></script>
+</body>
+</html> 
